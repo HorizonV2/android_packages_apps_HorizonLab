@@ -18,7 +18,7 @@
     
     <!-- Horizon Header -->
     <com.android.settingslib.widget.LayoutPreference
-        android:key="hzn_header"
+        android:clickable="true"
         android:layout="@layout/hzn_labs_header"
         settings:controller="com.horizon.lab.HorizonHeaderController" />
     <PreferenceCategory

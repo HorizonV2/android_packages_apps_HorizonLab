@@ -28,21 +28,26 @@
     <string name="horizon_dashboard_title">HorizonLabs</string>
     <string name="build_tweaks_summary_title">Be the Horizoners!</string>
 
+    <!-- About HorizonDroid -->
+    <string name="hz_about_title">About HorizonDroid</string>
+    <string name="hz_about_summary">Everything about us.</string>
+    <string name="hz_about_link">Visit and join</string>
+    <string name="hz_telegram_title" translatable="false">Telegram</string>
+    <string name="hz_telegram_summary">Join our community chat</string>
+    <string name="hz_github_title" translatable="false">GitHub</string>
+    <string name="hz_github_summary">Check out our GitHub</string>
+    <string name="hz_about_info_summary">HorizonDroid is a custom ROM based on LineageOS, designed to provide users with a more personalized and feature-rich Android experience. It contains minimal, simple features, and customizations that you can use.</string>
+
     <!-- Category: Statusbar -->
     <string name="category_statusbar_title">Statusbar</string>
-
     <!-- Category: QuickSettings-->
     <string name="category_quicksettings_title">Quick Settings</string>
-
     <!-- Category: Misc-->
     <string name="category_misc_title">Miscellaneous</string>
-
     <!-- Category: Theme-->
     <string name="category_theme_title">Themes</string>
-
     <!-- Category: LockScreen-->
     <string name="category_lock_title">LockScreen</string>
-
     <!-- Category: Notifications-->
     <string name="category_notif_title">Notifications</string>
 
