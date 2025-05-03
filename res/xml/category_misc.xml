@@ -6,7 +6,12 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    xmlns:lineage="http://schemas.android.com/apk/res-auto"
     android:title="@string/category_misc_title" >
+
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="misc_illustration"
+        lineage:lottie_rawRes="@raw/misc_illustration" />
 
     <!-- GameSpace -->
     <Preference
@@ -65,7 +70,7 @@
         android:key="persist.sys.pixelprops.gphotos"
         android:title="@string/photos_spoof_title"
         android:summary="@string/photos_spoof_summary"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
     <com.android.settings.custom.preference.SecureSettingSwitchPreference
         android:key="spoof_storage_encryption_status"

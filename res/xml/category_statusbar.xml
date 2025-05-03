@@ -6,7 +6,12 @@
 <PreferenceScreen
      xmlns:android="http://schemas.android.com/apk/res/android"
      xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+     xmlns:lineage="http://schemas.android.com/apk/res-auto"
      android:title="@string/category_statusbar_title" >
+
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="sb_illustration"
+        lineage:lottie_rawRes="@raw/sb_illustration" />
 
     <Preference
            android:key="status_bar_settings"
@@ -28,7 +33,7 @@
           android:key="statusbar_colored_icons"
           android:title="@string/statusbar_colored_icons_title"
           android:summary="@string/statusbar_colored_icons_summary"
-          android:defaultValue="true" />
+          android:defaultValue="false" />
 
      <com.android.settings.custom.preference.SystemSettingSwitchPreference
           android:key="statusbar_notif_count"
