@@ -164,8 +164,17 @@
     <string name="hdr_display_title">HDR Display</string>
     <string name="hdr_display_summary">Enable peak brightness for HDR content. This will increase battery usage</string>
 
+    <string name="default_value">Default</string>
+
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Force LTE CA</string>
     <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+
+    <!-- Custom settings dashboard style -->
+    <string name="settings_dashboard_style_title">Settings Styles</string>
+    <string name="settings_dashboard_style_1">Google Revamp Style</string>
+    <string name="settings_dashboard_style_2">Simple Style</string>
+    <string name="search_bar_style_title">Search Bar Style</string>
+    <string name="settings_sb_style_1">Android 15 (Revamped)</string>
 
 </resources> 
