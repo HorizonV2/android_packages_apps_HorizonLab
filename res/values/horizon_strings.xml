@@ -215,4 +215,8 @@
     <string name="status_bar_logo_style_captain_america">Captain America</string>
     <string name="status_bar_logo_style_flash">Flash</string>
 
+    <!-- Idle Manager -->
+    <string name="idle_manager_title">Kill background processes</string>
+    <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
+    
 </resources> 

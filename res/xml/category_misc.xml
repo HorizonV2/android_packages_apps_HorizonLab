@@ -41,6 +41,12 @@
             android:fragment="com.android.settings.gestures.GestureSettings"
             settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
 
+   <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="arcane_idle_manager"
+        android:title="@string/idle_manager_title"
+        android:summary="@string/idle_manager_summary"
+        android:defaultValue="false" />
+
    <com.android.settings.custom.preference.SystemPropertySwitchPreference
         android:key="persist.sys.pixelprops.games"
         android:title="@string/games_spoof_title"
