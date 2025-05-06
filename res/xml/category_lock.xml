@@ -14,6 +14,12 @@
         lineage:lottie_rawRes="@raw/lockscreen_illustration" />
 
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="enable_ripple_unlock"
+            android:title="@string/enable_fingerprint_ripple_effect_title"
+            android:summary="@string/enable_ripple_effect_summary"
+            android:defaultValue="true"/>
+
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="lockscreen_battery_info"
             android:title="@string/lockscreen_battery_info_title"
             android:summary="@string/lockscreen_battery_info_summary"
