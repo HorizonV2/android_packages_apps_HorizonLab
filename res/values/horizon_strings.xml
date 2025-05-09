@@ -223,5 +223,9 @@
     <!-- Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
     <string name="enable_ripple_effect_summary">Show ripple effect on unlock</string>
+
+    <!-- Status Bar Clock Chip -->
+    <string name="status_bar_clock_chip_title">Background chip</string>
+    <string name="status_bar_clock_chip_summary">Display accented chip behind clock</string>
     
 </resources> 
