@@ -18,12 +18,14 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/status_bar_logo_title">
 
+    <!-- Logo -->
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="status_bar_logo"
         android:title="@string/status_bar_logo_title"
         android:summary="@string/status_bar_logo_summary"
         android:defaultValue="false" />
 
+    <!-- Logo style --> 
     <com.android.settings.custom.preference.SystemSettingListPreference
         android:key="status_bar_logo_style"
         android:title="@string/status_bar_logo_style_title"
@@ -31,5 +33,14 @@
         android:entryValues="@array/status_bar_logo_style_values"
         android:dependency="status_bar_logo"
         android:defaultValue="0" />
+
+    <!-- Logo position -->
+    <com.android.settings.custom.preference.SystemSettingListPreference
+        android:key="status_bar_logo_position"
+        android:title="@string/status_bar_logo_position_title"
+        android:entries="@array/status_bar_logo_position_entries"
+        android:entryValues="@array/status_bar_logo_position_values"
+        android:defaultValue="0"
+        android:dependency="status_bar_logo" />
 
 </PreferenceScreen>

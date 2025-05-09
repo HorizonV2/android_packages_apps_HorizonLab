@@ -214,6 +214,7 @@
     <string name="status_bar_logo_style_ironman">Iron Man</string>
     <string name="status_bar_logo_style_captain_america">Captain America</string>
     <string name="status_bar_logo_style_flash">Flash</string>
+    <string name="status_bar_logo_style_amogus">Amogus</string>
 
     <!-- Idle Manager -->
     <string name="idle_manager_title">Kill background processes</string>
