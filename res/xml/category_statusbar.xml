@@ -37,6 +37,13 @@
           android:summary="@string/status_bar_clock_chip_summary"
           android:defaultValue="false" />
 
+     <!-- Bluetooth battery status -->
+     <com.android.settings.custom.preference.SystemSettingSwitchPreference
+          android:key="bluetooth_show_battery"
+          android:title="@string/status_bar_bluetooth_battery_title"
+          android:summary="@string/status_bar_bluetooth_battery_summary"
+          android:defaultValue="true" />
+
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
           android:key="ongoing_action_chip"
           android:title="@string/ongoing_action_chip_title"

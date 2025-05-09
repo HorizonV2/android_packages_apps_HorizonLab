@@ -227,5 +227,8 @@
     <!-- Status Bar Clock Chip -->
     <string name="status_bar_clock_chip_title">Background chip</string>
     <string name="status_bar_clock_chip_summary">Display accented chip behind clock</string>
+
+    <string name="status_bar_bluetooth_battery_title">Bluetooth battery status</string>
+    <string name="status_bar_bluetooth_battery_summary">Display battery status for the connected Bluetooth device, if available</string>
     
 </resources> 
