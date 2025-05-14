@@ -23,6 +23,8 @@ import android.os.UserHandle;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 
+import com.horizon.fragments.quicksettings.QsHeaderImageSettings;
+
 import androidx.preference.ListPreference;
 import androidx.preference.SwitchPreference;
 import androidx.preference.Preference;
@@ -65,6 +67,7 @@ public class QuickSettings extends SettingsPreferenceFragment {
                     final SearchIndexableResource sir = new SearchIndexableResource(context);
                     sir.xmlResId = R.xml.category_quicksettings;
                     return Arrays.asList(sir);
+                    QsHeaderImageSettings.reset(mContext);
                 }
 
                 @Override
