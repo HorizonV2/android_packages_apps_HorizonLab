@@ -15,6 +15,7 @@
  */
 package com.horizon.lab.category;
 
+import android.content.ContentResolver;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -54,6 +55,11 @@ public class QuickSettings extends SettingsPreferenceFragment {
 
     }
 
+    public static void reset(Context mContext) {
+        ContentResolver resolver = mContext.getContentResolver();
+        QsHeaderImageSettings.reset(mContext);
+    }
+
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.HORIZON;
@@ -66,8 +72,7 @@ public class QuickSettings extends SettingsPreferenceFragment {
                         Context context, boolean enabled) {
                     final SearchIndexableResource sir = new SearchIndexableResource(context);
                     sir.xmlResId = R.xml.category_quicksettings;
-                    return Arrays.asList(sir);
-                    QsHeaderImageSettings.reset(mContext);
+                    return Arrays.asList(sir);  
                 }
 
                 @Override
