@@ -20,6 +20,15 @@
             android:summary="@string/notifications_edge_light_summary"
             android:fragment="com.horizon.fragments.notifications.EdgeLightSettings" />
 
+    <com.android.settings.custom.preference.SystemSettingSeekBarPreference
+            android:key="max_visible_notification_icons"
+            android:title="@string/max_visible_notification_icons_title"
+            android:summary="@string/max_visible_notification_icons_summary"
+            android:defaultValue="4"
+            android:max="10"
+            settings:min="0"
+            settings:units="" />
+
     <!-- Heads up -->
     <lineageos.preference.GlobalSettingSwitchPreference
             android:key="heads_up_notifications_enabled"

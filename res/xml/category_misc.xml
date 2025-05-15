@@ -41,16 +41,6 @@
             android:fragment="com.android.settings.gestures.GestureSettings"
             settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
 
-     <!-- Freeform launch mode -->
-     <com.android.settings.custom.preference.GlobalSettingSwitchPreference
-        android:key="freeform_launch_mode"
-        android:title="@string/freeform_launch_mode_title"
-        android:dialogTitle="@string/freeform_launch_mode_title"
-        android:entries="@array/freeform_launch_mode_entries"
-        android:entryValues="@array/freeform_launch_mode_values"
-        android:defaultValue="0"
-        android:summary="%s" />
-
    <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="arcane_idle_manager"
         android:title="@string/idle_manager_title"
