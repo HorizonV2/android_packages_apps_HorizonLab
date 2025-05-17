@@ -37,12 +37,12 @@
           android:summary="@string/status_bar_logo_summary"
           android:fragment="com.horizon.lab.category.StatusBarLogo" />
 
-     <!-- Show logo on Statusbar -->
+     <!-- Statusbar Clock Chip -->
      <com.android.settings.custom.preference.SystemSettingSwitchPreference
           android:key="statusbar_clock_chip"
           android:title="@string/status_bar_clock_chip_title"
           android:summary="@string/status_bar_clock_chip_summary"
-          android:defaultValue="true" />
+          android:defaultValue="false" />
 
      <!-- Bluetooth battery status -->
      <com.android.settings.custom.preference.SystemSettingSwitchPreference
@@ -63,14 +63,14 @@
           android:key="statusbar_notif_count"
           android:title="@string/status_bar_notif_count_title"
           android:summary="@string/status_bar_notif_count_summary"
-          android:defaultValue="false" />
+          android:defaultValue="true" />
 
      <!-- Wifi standard icon -->
      <com.android.settings.custom.preference.SystemSettingSwitchPreference
           android:key="wifi_standard_icon"
           android:title="@string/show_wifi_standard_icon_title"
           android:summary="@string/show_wifi_standard_icon_summary"
-          android:defaultValue="false"/>
+          android:defaultValue="true"/>
 
         <!-- Mic/Camera privacy indicator -->
         <com.android.settings.custom.preference.SecureSettingSwitchPreference
