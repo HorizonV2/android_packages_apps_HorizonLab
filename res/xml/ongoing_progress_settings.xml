@@ -32,6 +32,12 @@
         android:summary="@string/show_media_progress_summary"
         android:defaultValue="true" />
 
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+         android:key="compact_progress_mode"
+         android:title="@string/compact_progress_mode_title"
+         android:summary="@string/compact_progress_mode_summary"
+         android:defaultValue="false" />
+
     <com.android.settings.custom.preference.SystemSettingSeekBarPreference
         android:key="progress_bar_opacity"
         android:title="Progress Bar Opacity"

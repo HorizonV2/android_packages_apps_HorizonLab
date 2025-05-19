@@ -21,7 +21,7 @@
             android:fragment="com.horizon.fragments.quicksettings.QsHeaderImageSettings" />
 
     <!-- QS Media Player  -->
-    <com.android.settings.custom.preferenc.SystemSettingSwitchPreference
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="qs_compact_media_player_mode"
             android:title="@string/qs_compact_media_player_mode_title"
             android:summary="@string/qs_compact_media_player_mode_summary"
