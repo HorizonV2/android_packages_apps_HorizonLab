@@ -12,6 +12,18 @@
     <com.android.settingslib.widget.IllustrationPreference
         android:key="ui_illustration"
         lineage:lottie_rawRes="@raw/ui_illustration" />
+
+    <PreferenceCategory
+            android:title="@string/monet_category">
+
+            <!-- Monet settings -->
+            <Preference
+                android:key="monet_settings"
+                android:title="@string/monet_settings_title"
+                android:summary="@string/monet_settings_summary"
+                android:fragment="com.horizon.lab.category.Monet" />
+
+        </PreferenceCategory>
     
     <com.android.settings.custom.preference.SystemSettingListPreference
         android:key="search_bar_style"
