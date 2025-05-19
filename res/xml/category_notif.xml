@@ -20,6 +20,12 @@
             android:summary="@string/notifications_edge_light_summary"
             android:fragment="com.horizon.fragments.notifications.EdgeLightSettings" />
 
+    <Preference
+         android:key="ambient_customization"
+         android:title="@string/ambient_text_category_title"
+         android:summary="@string/ambient_text_category_summary"
+         android:fragment="com.horizon.fragments.AmbientCustomizations" />
+
     <com.android.settings.custom.preference.SystemSettingSeekBarPreference
             android:key="max_visible_notification_icons"
             android:title="@string/max_visible_notification_icons_title"
