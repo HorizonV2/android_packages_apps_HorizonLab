@@ -13,6 +13,12 @@
         android:key="lockscreen_illustration"
         lineage:lottie_rawRes="@raw/lockscreen_illustration" />
 
+   <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="lockscreen_show_carrier"
+            android:title="@string/status_bar_carrier_lock_screen_title"
+            android:summary="@string/status_bar_carrier_lock_screen_summary"
+            android:defaultValue="true" />
+
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="enable_ripple_unlock"
             android:title="@string/enable_fingerprint_ripple_effect_title"
