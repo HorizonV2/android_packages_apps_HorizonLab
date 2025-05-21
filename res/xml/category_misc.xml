@@ -90,4 +90,10 @@
         android:summary="@string/show_clipboard_overlay_summary"
         android:defaultValue="true" /> 
 
+     <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="unlimit_screenrecord"
+        android:title="@string/miscellaneous_unlimit_screenrecord_title"
+        android:summary="@string/miscellaneous_unlimit_screenrecord_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>

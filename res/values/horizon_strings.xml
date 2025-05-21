@@ -353,5 +353,8 @@
     <string name="notification_guts_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
     <string name="status_bar_carrier_lock_screen_title">Carrier name on lockscreen</string>
     <string name="status_bar_carrier_lock_screen_summary">Display carrier name on lockscreen status bar</string>
+
+    <string name="miscellaneous_unlimit_screenrecord_title">Unlimit screenrecord</string>
+    <string name="miscellaneous_unlimit_screenrecord_summary">Remove the 15GiB file size limit\nMay result in a larger than needed output file</string>
     
 </resources> 
