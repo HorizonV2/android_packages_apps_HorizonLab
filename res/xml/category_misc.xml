@@ -41,6 +41,13 @@
             android:fragment="com.android.settings.gestures.GestureSettings"
             settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
 
+    <!-- Google Play Integrity -->
+    <com.android.settings.custom.preference.SystemPropertySwitchPreference
+        android:key="persist.sys.pihooks.pi"
+        android:title="@string/pi_spoof_title"
+        android:summary="@string/pi_spoof_summary"
+        android:defaultValue="true" />
+
    <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="arcane_idle_manager"
         android:title="@string/idle_manager_title"
