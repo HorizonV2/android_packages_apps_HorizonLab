@@ -26,6 +26,12 @@
             android:title="@string/qs_compact_media_player_mode_title"
             android:summary="@string/qs_compact_media_player_mode_summary"
             android:defaultValue="false"  />
+
+   <com.android.settings.custom.preference.SecureSettingSwitchPreference
+            android:key="media_controls_always_show_time"
+            android:title="@string/media_controls_always_show_time_title"
+            android:summary="@string/media_controls_always_show_time_summary"
+            android:defaultValue="false" />
         
     <!-- Show Media Squiggle Animation  -->
     <com.android.settings.custom.preference.SecureSettingSwitchPreference

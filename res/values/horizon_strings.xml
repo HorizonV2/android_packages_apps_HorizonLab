@@ -371,5 +371,9 @@
     <!-- Google Play Integrity Spoof -->
     <string name="pi_spoof_title">Google Play Integrity spoof</string>
     <string name="pi_spoof_summary">Spoof your device as different model for Google Play Integrity</string>
+
+    <!-- Media player settings -->
+    <string name="media_controls_always_show_time_title">Media show time</string>
+    <string name="media_controls_always_show_time_summary">Always show passed and total time on media player</string>
     
 </resources> 
