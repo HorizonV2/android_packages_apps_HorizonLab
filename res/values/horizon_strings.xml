@@ -380,7 +380,13 @@
     <string name="qs_tiles_haptic_feedback_title">Vibrate on touching QS tiles</string>
 
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">Show roaming indicator icon</string>Add commentMore actions
+    <string name="roaming_indicator_icon_title">Show roaming indicator icon</string>
     <string name="roaming_indicator_icon_summary">Display roaming indicator above signal icon when in roaming mode</string>
+
+    <!-- Miscellaneous - Lock Screen -->
+    <string name="fp_success_vibrate_title">Fingerprint authentication vibration</string>
+    <string name="fp_success_vibrate_summary">Vibrate when fingerprint authentication is successful</string>
+    <string name="fp_error_vibrate_title">Fingerprint error vibration</string>
+    <string name="fp_error_vibrate_summary">Vibrate when fingerprint authentication fails</string>
     
 </resources> 
