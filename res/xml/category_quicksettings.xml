@@ -53,4 +53,10 @@
             android:summary="show hide brightness percentage text"
             android:defaultValue="false" />
 
+     <!-- QS Tiles haptic -->
+     <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="qs_tiles_haptic_feedback"
+            android:title="@string/qs_tiles_haptic_feedback_title"
+            android:defaultValue="true" />
+
 </PreferenceScreen>

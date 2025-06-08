@@ -375,5 +375,8 @@
     <!-- Media player settings -->
     <string name="media_controls_always_show_time_title">Media show time</string>
     <string name="media_controls_always_show_time_summary">Always show passed and total time on media player</string>
+
+    <!-- QS Tiles haptic -->
+    <string name="qs_tiles_haptic_feedback_title">Vibrate on touching QS tiles</string>
     
 </resources> 
