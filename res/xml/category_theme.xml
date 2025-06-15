@@ -14,11 +14,11 @@
         lineage:lottie_rawRes="@raw/ui_illustration" />
 
     <!-- Monet settings -->
-    <Preference
+    <!-- <Preference
         android:key="monet_settings"
         android:title="@string/monet_settings_title"
         android:summary="@string/monet_settings_summary"
-        android:fragment="com.horizon.lab.category.Monet" />
+        android:fragment="com.horizon.lab.category.Monet" /> -->
 
     <com.android.settings.custom.preference.SystemSettingListPreference
         android:key="search_bar_style"
