@@ -46,7 +46,7 @@
         android:key="persist.sys.pihooks.pi"
         android:title="@string/pi_spoof_title"
         android:summary="@string/pi_spoof_summary"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
    <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="arcane_idle_manager"
@@ -70,7 +70,7 @@
         android:key="window_ignore_secure"
         android:title="@string/ignore_window_secure_title"
         android:summary="@string/ignore_window_secure_summary"
-        android:defaultValue="true"/>
+        android:defaultValue="false"/>
 
     <!-- Netflix -->
     <com.android.settings.custom.preference.SystemPropertySwitchPreference
